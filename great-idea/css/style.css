@@ -63,9 +63,9 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
 
-.header {
+header {
 	margin-top: 20px;
 	width: 1250px;
 	display: flex;
@@ -74,84 +74,100 @@ h1, h2, h3, h4, h5 {
 	align-items: center;
 }
 
-.section1 {
-	margin-top: 20px;
-	width: 1250px;
+.innovation {
+	height: 600px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.textAndButton {
+	margin-left: 200px;
+	width: 500px;
+	font-size: 100px;
+}
+.circle {
+	width: 500px;
+}
+button {
+	font-size: 60px
+}
+
+.featAbout {
+	height: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+
+
+.pars {
+	height: 100px;
+	width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-left: 200px;
+}
+
+.paragraph1 {
+	width: 400px;
+	margin: 20px;
+}
+.paragraph2 {
+	width: 400px;
+	margin: 20px;
+}
+
+.longImg {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
-.services2 h2{
-	font-size: 30px;
-	margin-top: 20px;
-	width: 150px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-end;
-	
-	
-}
-
-.container2 {
-	margin-left: 50px;
-	width: 1150px;
-}
-
-.empty {
-	margin-top: 30px;
-	margin-left: 50px;
-	width: 1150px;
-	border: 1px solid black;
-}
-
-.container3 {
-	height: 1000px;
+.spv {
+	height: 100px;
+	width: 1000px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	
 }
-.left, .left2, .left3 {
-	width: 500px;
-	border: 1px solid black;
-	background: 	#f5f3f1;
-	margin: 20px;
-}
 
-.right, .right2, .right3 {
-	width: 500px;
-	border: 1px solid black;
-	background: 	#f5f3f1;
-	margin: 20px;
-}
-
-.learnMore1, .learnMore2, .learnMore3, .learnMore4, .learnMore5, .learnMore6, .dd, .p2, .uxui, .p3, .dm, .p4, .wd, .p5, .ios, .p6, .ad, .p7 {
-	font-size: 20px;
-	margin-top: 10px;
-	padding: 10px;
-}
-
-.container4 {
-	height: 400px;
+.p456 {
+	height: 100px;
+	width: 1000px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
-.left4 {
-	width: 500px;
-	height: 400px;
+
+.p4 {
+	
+	width: 300px;
 }
-.right4 {
-	width: 500px;
+.p5 {
+	
+	width: 300px;
+}
+.p6 {
+	
+	width: 300px;
 }
 
-.footer {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+.contact {
+	margin-left: 200px
 }
 
+.somewhere {
+	margin-left: 200px;
+}
 
+.phone {
+	margin-left: 200px;
+}
 
-
+.cr {
+	margin-left: 700px;
+}
